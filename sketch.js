@@ -38,7 +38,7 @@ function preload() {
 
 
   // Load background song (replace with your own file)
-  song = loadSound("test.mp3");
+  song = loadSound("test.opus");
 }
 
 function setup() {
