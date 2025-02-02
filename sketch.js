@@ -35,6 +35,24 @@ function preload() {
   objects.push({ type: "text", content: "🇲🇽", x: 0, y: 0, vx: 1, vy: 1 }); // Mexican flag
   objects.push({ type: "text", content: "🌮", x: 0, y: 0, vx: -1, vy: 1 }); // Taco
   objects.push({ type: "text", content: "🎉", x: 0, y: 0, vx: 1, vy: -1 }); // Party popper
+    objects.push({ type: "text", content: "🎈", x: 0, y: 0, vx: 1, vy: 1 }); // Balloon
+  objects.push({ type: "text", content: "🐦", x: 0, y: 0, vx: -1, vy: 1 }); // Bird
+  objects.push({ type: "text", content: "💙", x: 0, y: 0, vx: 1, vy: 1 }); // Blue Heart
+  objects.push({ type: "text", content: "💚", x: 0, y: 0, vx: -1, vy: 1 }); // Green Heart
+  objects.push({ type: "text", content: "💛", x: 0, y: 0, vx: 1, vy: -1 }); // Yellow Heart
+  objects.push({ type: "text", content: "💜", x: 0, y: 0, vx: -1, vy: -1 }); // Purple Heart
+  objects.push({ type: "text", content: "🛌", x: 0, y: 0, vx: 1, vy: 1 }); // Resting
+  objects.push({ type: "text", content: "😘", x: 0, y: 0, vx: -1, vy: 1 }); // Kisses
+  objects.push({ type: "text", content: "🩹", x: 0, y: 0, vx: 1, vy: -1 }); // Band-Aid
+  objects.push({ type: "text", content: "💭", x: 0, y: 0, vx: -1, vy: -1 }); // Dreams
+  objects.push({ type: "text", content: "🤗", x: 0, y: 0, vx: 1, vy: 1 }); // Hugs
+  objects.push({ type: "text", content: "🌿", x: 0, y: 0, vx: 1, vy: -1 }); // Wellbeing
+  objects.push({ type: "text", content: "⚡", x: 0, y: 0, vx: -1, vy: -1 }); // Energy
+  objects.push({ type: "text", content: "💪", x: 0, y: 0, vx: 1, vy: 1 }); // Strength
+
+
+
+
 
 
   // Load background song (replace with your own file)
