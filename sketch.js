@@ -47,7 +47,6 @@ function preload() {
   objects.push({ type: "text", content: "⚡", x: 0, y: 0, vx: -1, vy: -1 }); // Energy
   objects.push({ type: "text", content: "💪", x: 0, y: 0, vx: 1, vy: 1 }); // Strength
 
-
   // Load background song (replace with your own file)
   song = loadSound("test.opus");
 }
@@ -100,7 +99,8 @@ function draw() {
     sparkle.alpha = random(100, 255);
   }
 
-  // Draw flying objects
+  // Draw flying objects (icons) with fixed color
+  fill(255); // Set icons to white (or use default emoji colors)
   for (let obj of objects) {
     textSize(32);
     text(obj.content, obj.x, obj.y);
@@ -115,14 +115,14 @@ function draw() {
   // Draw blinking title
   let blink = floor(frameCount / 30) % 2 === 0;
   if (blink) {
-    fill(random(255), random(255), random(255));
+    fill(random(255), random(255), random(255)); // Random color for title
   } else {
-    fill(255);
+    fill(255); // White for title
   }
   textSize(64);
   textFont("Arial");
   textAlign(CENTER, CENTER);
-  text("Natalia's Illa 2025", width / 2, height / 2);
+  text("Illas Natalia 2025", width / 2, height / 2);
 }
 
 function windowResized() {
