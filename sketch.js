@@ -18,9 +18,9 @@ function preload() {
   objects.push({ type: "text", content: "🍄", x: 0, y: 0, vx: 0, vy: 0 }); // Mushrooms
   objects.push({ type: "text", content: "🍕", x: 0, y: 0, vx: 0, vy: 0 }); // Pizza
   objects.push({ type: "text", content: "❤️", x: 0, y: 0, vx: 0, vy: 0 }); // Hearts
-    objects.push({ type: "text", content: "❤️", x: 0, y: 0, vx: 0, vy: 0 }); // Hearts
-      objects.push({ type: "text", content: "❤️", x: 0, y: 0, vx: 0, vy: 0 }); // Hearts
-        objects.push({ type: "text", content: "❤️", x: 0, y: 0, vx: 0, vy: 0 }); // Hearts
+  objects.push({ type: "text", content: "❤️", x: 0, y: 0, vx: 0, vy: 0 }); // Hearts
+  objects.push({ type: "text", content: "❤️", x: 0, y: 0, vx: 0, vy: 0 }); // Hearts
+  objects.push({ type: "text", content: "❤️", x: 0, y: 0, vx: 0, vy: 0 }); // Hearts
   objects.push({ type: "text", content: "🐈‍⬛", x: 0, y: 0, vx: 0, vy: 0 }); // Black Cat
   objects.push({ type: "text", content: "🐈‍⬛", x: 0, y: 0, vx: 0, vy: 0 }); // Black Cat
   objects.push({ type: "text", content: "🐈‍⬛", x: 0, y: 0, vx: 0, vy: 0 }); // Black Cat
@@ -28,14 +28,11 @@ function preload() {
   objects.push({ type: "text", content: "🐈‍⬛", x: 0, y: 0, vx: 0, vy: 0 }); // Black Cat
   objects.push({ type: "text", content: "🎈", x: 0, y: 0, vx: 0, vy: 0 }); // Balloon
   objects.push({ type: "text", content: "🏢", x: 0, y: 0, vx: 0, vy: 0 }); // Building
-  //objects.push({ type: "text", content: "🅄🅽🅰🅼", x: 0, y: 0, vx: 1, vy: 1 }); // UNAM
-  objects.push({ type: "text", content: "🇲🇽", x: 0, y: 0, vx: 1, vy: 1 }); // Mexican flag
-  objects.push({ type: "text", content: "🇲🇽", x: 0, y: 0, vx: 1, vy: 1 }); // Mexican flag
   objects.push({ type: "text", content: "🇲🇽", x: 0, y: 0, vx: 1, vy: 1 }); // Mexican flag
   objects.push({ type: "text", content: "🇲🇽", x: 0, y: 0, vx: 1, vy: 1 }); // Mexican flag
   objects.push({ type: "text", content: "🌮", x: 0, y: 0, vx: -1, vy: 1 }); // Taco
   objects.push({ type: "text", content: "🎉", x: 0, y: 0, vx: 1, vy: -1 }); // Party popper
-    objects.push({ type: "text", content: "🎈", x: 0, y: 0, vx: 1, vy: 1 }); // Balloon
+  objects.push({ type: "text", content: "🎈", x: 0, y: 0, vx: 1, vy: 1 }); // Balloon
   objects.push({ type: "text", content: "🐦", x: 0, y: 0, vx: -1, vy: 1 }); // Bird
   objects.push({ type: "text", content: "💙", x: 0, y: 0, vx: 1, vy: 1 }); // Blue Heart
   objects.push({ type: "text", content: "💚", x: 0, y: 0, vx: -1, vy: 1 }); // Green Heart
@@ -49,10 +46,6 @@ function preload() {
   objects.push({ type: "text", content: "🌿", x: 0, y: 0, vx: 1, vy: -1 }); // Wellbeing
   objects.push({ type: "text", content: "⚡", x: 0, y: 0, vx: -1, vy: -1 }); // Energy
   objects.push({ type: "text", content: "💪", x: 0, y: 0, vx: 1, vy: 1 }); // Strength
-
-
-
-
 
 
   // Load background song (replace with your own file)
